@@ -1,0 +1,65 @@
+body {
+  width: 100%;
+  margin: 0 70px;
+  align-content: center;
+}
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30 auto 30;
+  width: 1050px;
+  background-image: url("images/background.png");
+  background-size: repeat;
+  background-attachment: fixed;
+
+
+
+
+}
+.racetrackA {
+  padding: 50px ;
+  height: 50px;
+  width: auto;
+
+
+
+}
+
+.racetrackB {
+  padding: 50px ;
+  height: 80px;
+  width: auto;
+}
+
+#start {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800px;
+  text-align: center;
+}
+
+#redCar {
+  width: 90px;
+  height:90px;
+  margin-left: 1px;
+}
+
+#blueCar {
+  width: 90px;
+  height:90px;
+  top: 1px;
+  margin-left: 1px;
+}
+
+#blueWon {
+  text-align: center;
+  display: none;
+}
+#redWon{
+  text-align: center;
+  display: none;
+}
+
+
+
